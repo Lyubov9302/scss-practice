@@ -1,0 +1,39 @@
+// додавання і віднімання 
+
+.box {
+    width: 600px + 20px;
+    width: calc(600px - 50%);
+}
+
+// множення та ділення
+
+$value: 600px;
+
+.box {
+width: 600px * 2;
+width: 600px * 2 + 50px;
+width: (600px + 50px) * 2;
+
+width: $value / 5;
+width: (600px / 5);
+width: 600px / 5px + 10px;
+
+@debug (600px / 5px);
+@debug (120 + 10px);
+}
+
+// інтерполяція 
+
+$name: "box";
+$margin: 100px;
+
+.box {
+    margin: $margin * 2;
+    margin: calc(#{$margin} *2);
+}
+
+// examples 
+
+.#{$name} {
+    margin: $margin;
+}
