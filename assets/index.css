@@ -1,14 +1,4 @@
-.btn-success {
-  border: 2px solid lightgreen;
-  color: lightgreen;
-}
-
-.btn-error {
-  border: 2px solid tomato;
-  color: tomato;
-}
-
-.btn-info {
-  border: 2px solid lightblue;
-  color: lightblue;
+.button {
+  background-color: white;
+  border: 1px solid darkblue;
 }
